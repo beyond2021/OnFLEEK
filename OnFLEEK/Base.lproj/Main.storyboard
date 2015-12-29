@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="2704" y="764"/>
         </scene>
-        <!--Club Crawl View Controller-->
+        <!--Item-->
         <scene sceneID="soO-4X-hTa">
             <objects>
                 <viewController id="2F5-vy-fr4" customClass="ClubCrawlViewController" customModule="OnFLEEK" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,13 +35,14 @@
                     <view key="view" contentMode="scaleToFill" id="hYd-lz-ycw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.3411764706" green="0.85490196080000003" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="uD2-8K-g5u"/>
                     <navigationItem key="navigationItem" id="cDp-6V-hTq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bIr-i4-8Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2704" y="-16"/>
+            <point key="canvasLocation" x="2128" y="-28"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="YER-ov-NNV">
@@ -55,7 +56,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BL8-9W-syW" kind="relationship" relationship="viewControllers" id="FsJ-YF-JN4"/>
+                        <segue destination="2F5-vy-fr4" kind="relationship" relationship="viewControllers" id="b9D-6Z-cLP"/>
                         <segue destination="9fA-tz-DPj" kind="relationship" relationship="viewControllers" id="lYj-QD-68R"/>
                     </connections>
                 </tabBarController>
@@ -93,25 +94,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vg-Dc-FkW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="494" y="823"/>
-        </scene>
-        <!--ClubCrawl-->
-        <scene sceneID="eAs-ig-X6N">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BL8-9W-syW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="ClubCrawl" id="ghd-CH-0OP"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZlD-M8-bkc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="2F5-vy-fr4" kind="relationship" relationship="rootViewController" id="EOn-5H-9lI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YH5-Jw-bHr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1892" y="-16"/>
         </scene>
         <!--Map-->
         <scene sceneID="kLw-Ki-eou">

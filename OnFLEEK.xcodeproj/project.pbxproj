@@ -18,6 +18,21 @@
 		22B3EC971C240184008BF87A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3EC961C240184008BF87A /* MapViewController.swift */; };
 		22B3EC981C240184008BF87A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3EC961C240184008BF87A /* MapViewController.swift */; };
 		22B3EC991C240184008BF87A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3EC961C240184008BF87A /* MapViewController.swift */; };
+		22B3EC9F1C241594008BF87A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3EC9E1C241594008BF87A /* Model.swift */; };
+		22B3ECA01C241594008BF87A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3EC9E1C241594008BF87A /* Model.swift */; };
+		22B3ECA11C241594008BF87A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3EC9E1C241594008BF87A /* Model.swift */; };
+		22B3ECA31C241692008BF87A /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECA21C241692008BF87A /* Party.swift */; };
+		22B3ECA41C241692008BF87A /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECA21C241692008BF87A /* Party.swift */; };
+		22B3ECA51C241692008BF87A /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECA21C241692008BF87A /* Party.swift */; };
+		22B3ECA71C24173A008BF87A /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECA61C24173A008BF87A /* UserInfo.swift */; };
+		22B3ECA81C24173A008BF87A /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECA61C24173A008BF87A /* UserInfo.swift */; };
+		22B3ECA91C24173A008BF87A /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECA61C24173A008BF87A /* UserInfo.swift */; };
+		22B3ECAB1C24FA11008BF87A /* WorkAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECAA1C24FA11008BF87A /* WorkAround.swift */; };
+		22B3ECAC1C24FA11008BF87A /* WorkAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECAA1C24FA11008BF87A /* WorkAround.swift */; };
+		22B3ECAD1C24FA11008BF87A /* WorkAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECAA1C24FA11008BF87A /* WorkAround.swift */; };
+		22F374581C3276F600D3E390 /* Koloda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F374571C3276F600D3E390 /* Koloda.framework */; };
+		22F3745A1C32770200D3E390 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F374591C32770200D3E390 /* pop.framework */; };
+		8BCABEB9804165C808083023 /* Pods_OnFLEEK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF659CCE42A3010A3541AA7 /* Pods_OnFLEEK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +69,15 @@
 		22B3EC921C23FCD5008BF87A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		22B3EC941C240095008BF87A /* ClubCrawlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClubCrawlViewController.swift; path = ../ClubCrawlViewController.swift; sourceTree = "<group>"; };
 		22B3EC961C240184008BF87A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		22B3EC9E1C241594008BF87A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		22B3ECA21C241692008BF87A /* Party.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		22B3ECA61C24173A008BF87A /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		22B3ECAA1C24FA11008BF87A /* WorkAround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkAround.swift; sourceTree = "<group>"; };
+		22F374571C3276F600D3E390 /* Koloda.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Koloda.framework; path = "Pods/../build/Debug-iphoneos/Koloda.framework"; sourceTree = "<group>"; };
+		22F374591C32770200D3E390 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "Pods/../build/Debug-iphoneos/pop.framework"; sourceTree = "<group>"; };
+		4E463FAC1D1206092D4A3965 /* Pods-OnFLEEK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnFLEEK.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnFLEEK/Pods-OnFLEEK.release.xcconfig"; sourceTree = "<group>"; };
+		5EF659CCE42A3010A3541AA7 /* Pods_OnFLEEK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnFLEEK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C476DE376FBAD79AECCF0BA1 /* Pods-OnFLEEK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnFLEEK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnFLEEK/Pods-OnFLEEK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F3745A1C32770200D3E390 /* pop.framework in Frameworks */,
+				22F374581C3276F600D3E390 /* Koloda.framework in Frameworks */,
 				22B3EC931C23FCD5008BF87A /* CloudKit.framework in Frameworks */,
+				8BCABEB9804165C808083023 /* Pods_OnFLEEK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +117,8 @@
 				22B3EC771C23FC96008BF87A /* OnFLEEKTests */,
 				22B3EC821C23FC96008BF87A /* OnFLEEKUITests */,
 				22B3EC611C23FC96008BF87A /* Products */,
+				4090B9B5EDE951B62FBB0F54 /* Pods */,
+				5DE5B4C20C22D5236B19FF0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +135,10 @@
 		22B3EC621C23FC96008BF87A /* OnFLEEK */ = {
 			isa = PBXGroup;
 			children = (
+				22B3EC9A1C240C50008BF87A /* View Controllers */,
+				22B3EC9D1C24154F008BF87A /* Model */,
 				22B3EC9C1C240CA9008BF87A /* StoryBoards */,
 				22B3EC9B1C240C8E008BF87A /* Resources */,
-				22B3EC9A1C240C50008BF87A /* View Controllers */,
 			);
 			path = OnFLEEK;
 			sourceTree = "<group>";
@@ -160,6 +190,36 @@
 			name = StoryBoards;
 			sourceTree = "<group>";
 		};
+		22B3EC9D1C24154F008BF87A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22B3EC9E1C241594008BF87A /* Model.swift */,
+				22B3ECA21C241692008BF87A /* Party.swift */,
+				22B3ECA61C24173A008BF87A /* UserInfo.swift */,
+				22B3ECAA1C24FA11008BF87A /* WorkAround.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4090B9B5EDE951B62FBB0F54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C476DE376FBAD79AECCF0BA1 /* Pods-OnFLEEK.debug.xcconfig */,
+				4E463FAC1D1206092D4A3965 /* Pods-OnFLEEK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DE5B4C20C22D5236B19FF0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22F374591C32770200D3E390 /* pop.framework */,
+				22F374571C3276F600D3E390 /* Koloda.framework */,
+				5EF659CCE42A3010A3541AA7 /* Pods_OnFLEEK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22B3EC881C23FC96008BF87A /* Build configuration list for PBXNativeTarget "OnFLEEK" */;
 			buildPhases = (
+				62EC5F0752904AEB3D6912A1 /* Check Pods Manifest.lock */,
 				22B3EC5C1C23FC96008BF87A /* Sources */,
 				22B3EC5D1C23FC96008BF87A /* Frameworks */,
 				22B3EC5E1C23FC96008BF87A /* Resources */,
+				AD7D3EBD8D4CAD651A54DE5C /* Embed Pods Frameworks */,
+				B46379BFE6229DA43FF1230A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,14 +361,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62EC5F0752904AEB3D6912A1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7D3EBD8D4CAD651A54DE5C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnFLEEK/Pods-OnFLEEK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B46379BFE6229DA43FF1230A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnFLEEK/Pods-OnFLEEK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22B3EC5C1C23FC96008BF87A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				22B3EC951C240095008BF87A /* ClubCrawlViewController.swift in Sources */,
+				22B3ECAB1C24FA11008BF87A /* WorkAround.swift in Sources */,
+				22B3ECA31C241692008BF87A /* Party.swift in Sources */,
 				22B3EC971C240184008BF87A /* MapViewController.swift in Sources */,
 				22B3EC641C23FC96008BF87A /* AppDelegate.swift in Sources */,
+				22B3ECA71C24173A008BF87A /* UserInfo.swift in Sources */,
+				22B3EC9F1C241594008BF87A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +428,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B3ECA01C241594008BF87A /* Model.swift in Sources */,
+				22B3ECAC1C24FA11008BF87A /* WorkAround.swift in Sources */,
 				22B3EC791C23FC96008BF87A /* OnFLEEKTests.swift in Sources */,
+				22B3ECA41C241692008BF87A /* Party.swift in Sources */,
+				22B3ECA81C24173A008BF87A /* UserInfo.swift in Sources */,
 				22B3EC981C240184008BF87A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +441,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B3ECA11C241594008BF87A /* Model.swift in Sources */,
+				22B3ECAD1C24FA11008BF87A /* WorkAround.swift in Sources */,
 				22B3EC841C23FC96008BF87A /* OnFLEEKUITests.swift in Sources */,
+				22B3ECA51C241692008BF87A /* Party.swift in Sources */,
+				22B3ECA91C24173A008BF87A /* UserInfo.swift in Sources */,
 				22B3EC991C240184008BF87A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,11 +568,16 @@
 		};
 		22B3EC891C23FC96008BF87A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C476DE376FBAD79AECCF0BA1 /* Pods-OnFLEEK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = OnFLEEK/OnFLEEK.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = OnFLEEK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.OnFLEEK;
@@ -461,11 +589,16 @@
 		};
 		22B3EC8A1C23FC96008BF87A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E463FAC1D1206092D4A3965 /* Pods-OnFLEEK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = OnFLEEK/OnFLEEK.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = OnFLEEK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.OnFLEEK;
@@ -542,6 +675,7 @@
 				22B3EC8A1C23FC96008BF87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B3EC8B1C23FC96008BF87A /* Build configuration list for PBXNativeTarget "OnFLEEKTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +684,7 @@
 				22B3EC8D1C23FC96008BF87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B3EC8E1C23FC96008BF87A /* Build configuration list for PBXNativeTarget "OnFLEEKUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +693,7 @@
 				22B3EC901C23FC96008BF87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

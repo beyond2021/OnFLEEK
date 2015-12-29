@@ -1,4 +1,4 @@
-//
+///
 //  ClubCrawlViewController.swift
 //  OnFLEEK
 //
@@ -13,7 +13,7 @@ class ClubCrawlViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 self.title = "Club Crawl"
-self.navigationController!.title = "By Location"    
+//self.navigationController!.title = "By Location"
     }
 
     override func didReceiveMemoryWarning() {
