@@ -32,6 +32,9 @@
 		22B3ECAD1C24FA11008BF87A /* WorkAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3ECAA1C24FA11008BF87A /* WorkAround.swift */; };
 		22F374581C3276F600D3E390 /* Koloda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F374571C3276F600D3E390 /* Koloda.framework */; };
 		22F3745A1C32770200D3E390 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F374591C32770200D3E390 /* pop.framework */; };
+		22F3745E1C327CC600D3E390 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F3745D1C327CC600D3E390 /* Photo.swift */; };
+		22F374671C32816100D3E390 /* AAPLCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F374661C32816100D3E390 /* AAPLCloudManager.m */; };
+		22F3746B1C32837300D3E390 /* FleekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F3746A1C32837300D3E390 /* FleekViewController.swift */; };
 		8BCABEB9804165C808083023 /* Pods_OnFLEEK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF659CCE42A3010A3541AA7 /* Pods_OnFLEEK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -75,6 +78,11 @@
 		22B3ECAA1C24FA11008BF87A /* WorkAround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkAround.swift; sourceTree = "<group>"; };
 		22F374571C3276F600D3E390 /* Koloda.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Koloda.framework; path = "Pods/../build/Debug-iphoneos/Koloda.framework"; sourceTree = "<group>"; };
 		22F374591C32770200D3E390 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "Pods/../build/Debug-iphoneos/pop.framework"; sourceTree = "<group>"; };
+		22F3745D1C327CC600D3E390 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		22F374641C32815F00D3E390 /* OnFLEEK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnFLEEK-Bridging-Header.h"; sourceTree = "<group>"; };
+		22F374651C32816100D3E390 /* AAPLCloudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCloudManager.h; sourceTree = "<group>"; };
+		22F374661C32816100D3E390 /* AAPLCloudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCloudManager.m; sourceTree = "<group>"; };
+		22F3746A1C32837300D3E390 /* FleekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FleekViewController.swift; sourceTree = "<group>"; };
 		4E463FAC1D1206092D4A3965 /* Pods-OnFLEEK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnFLEEK.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnFLEEK/Pods-OnFLEEK.release.xcconfig"; sourceTree = "<group>"; };
 		5EF659CCE42A3010A3541AA7 /* Pods_OnFLEEK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnFLEEK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C476DE376FBAD79AECCF0BA1 /* Pods-OnFLEEK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnFLEEK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnFLEEK/Pods-OnFLEEK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +120,8 @@
 		22B3EC571C23FC96008BF87A = {
 			isa = PBXGroup;
 			children = (
+				22F374651C32816100D3E390 /* AAPLCloudManager.h */,
+				22F374661C32816100D3E390 /* AAPLCloudManager.m */,
 				22B3EC921C23FCD5008BF87A /* CloudKit.framework */,
 				22B3EC621C23FC96008BF87A /* OnFLEEK */,
 				22B3EC771C23FC96008BF87A /* OnFLEEKTests */,
@@ -119,6 +129,7 @@
 				22B3EC611C23FC96008BF87A /* Products */,
 				4090B9B5EDE951B62FBB0F54 /* Pods */,
 				5DE5B4C20C22D5236B19FF0D /* Frameworks */,
+				22F374641C32815F00D3E390 /* OnFLEEK-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +177,7 @@
 			children = (
 				22B3EC941C240095008BF87A /* ClubCrawlViewController.swift */,
 				22B3EC961C240184008BF87A /* MapViewController.swift */,
+				22F3746A1C32837300D3E390 /* FleekViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -193,12 +205,37 @@
 		22B3EC9D1C24154F008BF87A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				22F3745F1C327F0300D3E390 /* OnFleekModel */,
+				22F3745C1C327C8B00D3E390 /* Sound */,
+				22F3745B1C327C4600D3E390 /* Photos */,
 				22B3EC9E1C241594008BF87A /* Model.swift */,
 				22B3ECA21C241692008BF87A /* Party.swift */,
 				22B3ECA61C24173A008BF87A /* UserInfo.swift */,
 				22B3ECAA1C24FA11008BF87A /* WorkAround.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		22F3745B1C327C4600D3E390 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				22F3745D1C327CC600D3E390 /* Photo.swift */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		22F3745C1C327C8B00D3E390 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		22F3745F1C327F0300D3E390 /* OnFleekModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OnFleekModel;
 			sourceTree = "<group>";
 		};
 		4090B9B5EDE951B62FBB0F54 /* Pods */ = {
@@ -414,13 +451,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F3745E1C327CC600D3E390 /* Photo.swift in Sources */,
 				22B3EC951C240095008BF87A /* ClubCrawlViewController.swift in Sources */,
 				22B3ECAB1C24FA11008BF87A /* WorkAround.swift in Sources */,
 				22B3ECA31C241692008BF87A /* Party.swift in Sources */,
 				22B3EC971C240184008BF87A /* MapViewController.swift in Sources */,
 				22B3EC641C23FC96008BF87A /* AppDelegate.swift in Sources */,
+				22F3746B1C32837300D3E390 /* FleekViewController.swift in Sources */,
 				22B3ECA71C24173A008BF87A /* UserInfo.swift in Sources */,
 				22B3EC9F1C241594008BF87A /* Model.swift in Sources */,
+				22F374671C32816100D3E390 /* AAPLCloudManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +611,7 @@
 			baseConfigurationReference = C476DE376FBAD79AECCF0BA1 /* Pods-OnFLEEK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = OnFLEEK/OnFLEEK.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -579,10 +620,13 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = OnFLEEK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.OnFLEEK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnFLEEK-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -592,6 +636,7 @@
 			baseConfigurationReference = 4E463FAC1D1206092D4A3965 /* Pods-OnFLEEK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = OnFLEEK/OnFLEEK.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -600,10 +645,12 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = OnFLEEK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.OnFLEEK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnFLEEK-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
